@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --darkgrey: #212529;
+    --white: #fff;
+    --cyan:#15C7EF;
+
+}
+body {
+    font-family: 'Inter', sans-serif;  
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+nav a{
+    font-weight: 300;
+}
+
+article i {
+    background-color: var(--cyan);
+}
+.card {
+    background-color: var(--cyan);
+    color: var(--white);
+}
+footer {
+    background-color: var(--cyan);
+}
