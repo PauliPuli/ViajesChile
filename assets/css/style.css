@@ -6,7 +6,6 @@
     --darkgrey: #212529;
     --white: #fff;
     --cyan:#15C7EF;
-    --transparente:#21252900;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -18,7 +17,7 @@ nav a{
     font-weight: 300;
 }
 nav:hover {
-background-color: var(--transparente);
+scroll-behavior: var(--darkgrey);
 }
 h2 {
     font-weight: 600;
@@ -26,14 +25,17 @@ h2 {
 #tarjetas {
 font-weight: 600;
 }
+.card img {
+    max-height: 180px;
+}
 article {
-    margin: 150px 50px;
+    margin: 100px 50px;
 }
 article i {
     background-color: var(--cyan);
 }
 section {
-    margin: 150px 50px;
+    margin: 100px 50px;
 }
 .card {
     background-color: var(--cyan);
