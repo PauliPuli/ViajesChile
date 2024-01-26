@@ -9,7 +9,7 @@
 
 }
 body {
-    font-family: 'Inter', sans-serif;  
+    font-family: 'Raleway', sans-serif;
     background-color: var(--darkgrey);
     color: var(--white);
 }
@@ -17,7 +17,12 @@ body {
 nav a{
     font-weight: 300;
 }
-
+h2 {
+    font-weight: 600;
+}
+#tarjetas {
+font-weight: 600;
+}
 article i {
     background-color: var(--cyan);
 }
@@ -25,6 +30,10 @@ article i {
     background-color: var(--cyan);
     color: var(--white);
 }
+
 footer {
     background-color: var(--cyan);
+}
+footer a {
+    color: var(--white);
 }
