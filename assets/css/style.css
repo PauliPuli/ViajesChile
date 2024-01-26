@@ -13,6 +13,7 @@ body {
     background-color: var(--darkgrey);
     color: var(--white);
 }
+
 nav a{
     font-weight: 300;
 }
