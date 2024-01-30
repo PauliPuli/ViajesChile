@@ -22,7 +22,7 @@ scroll-behavior: var(--darkgrey);
 h2 {
     font-weight: 600;
 }
-#tarjetas {
+.tarjetas {
 font-weight: 600;
 }
 .card img {
